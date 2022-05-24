@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "899519029555",
+    "project_id": "hackthon-huji-2022",
+    "storage_bucket": "hackthon-huji-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899519029555:android:97965841e8650b2af41e46",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899519029555-d8518ns6easphn5pvratbp94hmi6r1gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrnnVAi7oXTlcNG2aqsCcea5szwFhYQxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899519029555-d8518ns6easphn5pvratbp94hmi6r1gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899519029555:android:b8a6904674abe75af41e46",
+        "android_client_info": {
+          "package_name": "hackthon_2022.water"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899519029555-d8518ns6easphn5pvratbp94hmi6r1gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrnnVAi7oXTlcNG2aqsCcea5szwFhYQxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899519029555-d8518ns6easphn5pvratbp94hmi6r1gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

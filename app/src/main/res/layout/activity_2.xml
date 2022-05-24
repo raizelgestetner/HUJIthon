@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C6180"
+    tools:context=".Activity2">
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/get_minute_button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/edt_input_minutes"-->
+    <!--        android:text="Go"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/edt_input_minutes"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteY="406dp" />-->
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edt_input_minutes"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_below="@+id/ACT_2"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="84dp"-->
+    <!--        android:hint="How long of a shower do you want?"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/ACT_2"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edt_input_when"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_below="@+id/ACT_2"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="132dp"-->
+    <!--        android:hint="When do you want to shower?"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/ACT_2"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="82dp" />-->
+
+    <NumberPicker
+        android:id="@+id/shower_length_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/shower_length_txt"
+        android:layout_width="112dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Length of shower?"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+
+    <NumberPicker
+        android:id="@+id/when_picker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/when_txt"
+        android:layout_width="95dp"
+        android:layout_height="83dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="What time?"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <NumberPicker
+        android:id="@+id/when_picker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:gravity="top"
+        android:text=":"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/get_when_button"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/shower_length_picker"
+        android:layout_marginTop="268dp"
+        android:background="#00BCD4"
+        android:backgroundTint="#00BCD4"
+        android:text="Set"
+        android:textColor="@color/black"
+        app:iconTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shower_length_picker"
+        app:rippleColor="#00BCD4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/done_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="#1C6180"
+        android:gravity="top"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+
+    <!--    <NumberPicker-->
+    <!--        android:id="@+id/ShowerTimePic"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.507"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:layout_editor_absoluteY="435dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <NumberPicker-->
+    <!--        android:id="@+id/ShowerTimePic"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.507"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:layout_editor_absoluteY="435dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView_get_minutes"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:text="ACT_2"-->
+    <!--        android:textSize="20dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
